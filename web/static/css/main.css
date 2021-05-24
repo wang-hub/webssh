@@ -1,0 +1,90 @@
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+/* 头部样式 */
+.header {
+  background-color: #f1f1f1;
+  padding: 0px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  /*padding: 10px;*/
+}
+
+/* 左侧宽度 */
+.column.side {
+  background-color: #f1f1f1;
+  width: 34%;
+  height: 100%;
+}
+
+/* 主区域宽度 */
+.column.middle {
+  width: 65%;
+  /*height: 700px;*/
+  float:right;
+}
+
+/* 列后清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 响应式布局 - 宽度小于600px时设置上下布局
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}*/
+
+ #main {
+    margin-top: 20px;
+} 
+
+#ratio-group {
+    float: right;
+}
+
+.pure-item {
+    margin: 0 auto 10px;
+    width: 300px;
+    /*width: auto;*/
+    position: relative;
+}
+
+.pure-radio {
+    margin-left: 10px;
+}
+
+.pure-item:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pure-item label {
+    float: left;
+    line-height: 34px;
+}
+
+.pure-item input {
+    float: right;
+}
+
+.pure-item select{
+    float: right;
+}
+
+ .terminal {
+    float: none;
+    color: #f0f0f0;
+    height: 50%;
+    background: rgb(122, 40, 40);
+} 

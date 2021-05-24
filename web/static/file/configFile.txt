@@ -1,0 +1,12 @@
+host:192.168.129.161 port:22 username:pai ispwd:true password:123456
+host:192.168.137.101 port:22 username:root ispwd:true password:123456
+host:192.168.129.159 port:22 username:pai ispwd:true password:123456
+host:192.168.129.140 port:22 username:pai ispwd:true password:123456
+host:192.168.129.148 port:22 username:pai ispwd:true password:123456
+host:192.168.129.147 port:23 username:hhh ispwd:true password:123456
+host:192.168.129.149 port:22 username:pai ispwd:true password:123456
+host:192.168.129.151 port:22 username:pai ispwd:true password:123456
+host:192.168.129.154 port:22 username:pai ispwd:true password:123456
+host:192.168.129.155 port:22 username:pai ispwd:true password:123456
+host:192.168.129.156 port:22 username:pai ispwd:true password:123456
+host:192.168.129.157 port:22 username:pai ispwd:true password:123456
